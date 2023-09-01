@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+
+.container{
+    padding-top: 1%;
+    margin-top: 12%;
+    margin-left: 15%;
+    text-align: center;
+    position: center;
+    border: 5px dotted #135b77;
+    border-radius: 10px;
+
+
+    }
+
+    .col{
+        font-weight: 400;
+        color: aliceblue;
+    }
+    .form-control{
+        width: 60%;
+        margin-left:20%;
+    }
+    .copyright{
+        padding-top: 10rem ;
+    }
